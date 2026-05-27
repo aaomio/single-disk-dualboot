@@ -23,7 +23,6 @@ create vdisk file="C:\VHD\Win10.vhdx" maximum=20000 type=expandable
 ## Step 3: Select and attach
 ```cmd
 select vdisk file="C:\VHD\Win10.vhdx"
-
 attach vdisk
 ```
 
@@ -32,10 +31,7 @@ attach vdisk
 ## Step 4: Create partition
 ```cmd
 create partition primary
-
 format quick fs=ntfs
-
 assign letter=V
-
 exit
 ```
