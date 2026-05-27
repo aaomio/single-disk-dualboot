@@ -11,10 +11,8 @@ All steps must be followed in sequence.
 1. VHD creation  
 2. Create bootable USB (Rufus)  
 3. BIOS / UEFI preparation  
-4. Boot into WinPE  
-5. Attach VHD in WinPE  
-6. Install Windows into VHD  
-7. Boot configuration (dual boot)
+4. Boot into WinPE and Attach VHD 
+5. Boot configuration (Dual Boot)
 
 ---
 
