@@ -51,7 +51,7 @@ Includes:
 System firmware is configured in order to boot from the installation USB.
 
 Reference:
-- [BIOS / UEFI Boot Setup](Installation/boot-from-usb.md)
+- [BIOS / UEFI Boot Setup](installation/boot-from-usb.md)
 
 Includes:
 - Secure Boot configuration (if required)
@@ -65,7 +65,7 @@ Includes:
 The system is booted from the USB installation media into Windows Setup, and the VHD is then attached.
 
 Reference:
-- [VHD WinPE Attach](Installation/vhd-winpe-attachvhd.md)
+- [VHD WinPE Attach](installation/vhd-winpe-attachvhd.md)
 
 Includes:
 - Boot from USB
