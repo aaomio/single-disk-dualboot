@@ -51,7 +51,7 @@ Includes:
 System firmware is configured in order to boot from the installation USB.
 
 Reference:
-- [BIOS / UEFI Boot Setup](installation/boot-from-usb.md)
+- [BIOS / UEFI Boot Setup](Installation/boot-from-usb.md)
 
 Includes:
 - Secure Boot configuration (if required)
@@ -60,40 +60,27 @@ Includes:
 
 ---
 
-## 4. Boot into WinPE
+## 4. Boot into WinPE and Attach VHD
 
-The system is booted from the USB installation media into Windows Setup.
+The system is booted from the USB installation media into Windows Setup, and the VHD is then attached.
 
 Reference:
-- [Windows USB Boot Process](installation/windows-usb-boot-process.md)
+- [VHD WinPE Attach](Installation/vhd-winpe-attachvhd.md)
 
 Includes:
 - Boot from USB
 - Enter Windows Setup environment
-- Open command prompt (Shift + F10)
+- Locate and attach VHD using DiskPart (Shift + F10)
+- Prepare disk for Windows installation
 
 ---
 
-## 5. Attach VHD in WinPE
-
-After entering WinPE, the previously created VHD is attached.
-
-Reference:
-- [VHD WinPE Attach](installation/vhd-winpe-attach.md)
-
-Includes:
-- Locating the VHD file
-- Attaching via DiskPart
-- Preparing for Windows deployment into the VHD
-
----
-
-## 6. Boot Configuration (Dual Boot Setup)
+## 5. Boot Configuration (Dual Boot Setup)
 
 Boot entries are configured to enable selection between operating systems.
 
 Reference:
-- [BCDEdit Boot Configuration](bcdedit/boot-configuration.md)
+- [BCDEdit Boot Configuration](bcdedit\boot-configuration.md)
 
 Includes:
 - Boot entry creation
