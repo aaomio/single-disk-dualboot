@@ -4,7 +4,7 @@ This guide explains how system firmware (BIOS / UEFI) is configured to allow boo
 
 ---
 
-## 0. BIOS / UEFI Setup
+## 1. BIOS / UEFI Setup
 
 BIOS/UEFI settings must be accessed during system startup.
 
@@ -15,7 +15,7 @@ Common keys:
 
 ---
 
-## Secure Boot
+## 2. Secure Boot
 
 Secure Boot may need to be disabled depending on system requirements.
 
@@ -23,7 +23,7 @@ Secure Boot may need to be disabled depending on system requirements.
 
 ---
 
-## Boot Mode
+## 3. Boot Mode
 
 The system must be configured to use UEFI mode.
 
@@ -33,7 +33,7 @@ Legacy/CSM should be disabled unless required.
 
 ---
 
-## Save and Exit
+## 4. Save and Exit
 
 Changes must be saved before exiting BIOS/UEFI.
 
