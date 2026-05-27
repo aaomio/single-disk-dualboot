@@ -10,7 +10,7 @@ Download the official Windows 10 ISO from Microsoft:
 
 https://www.microsoft.com/software-download/windows10
 
-You can use either:
+Use Either:
 - Media Creation Tool
 - Direct ISO download
 
@@ -35,7 +35,7 @@ https://rufus.ie
 
 Open Rufus and set the following:
 
-- Device: Your USB drive
+- Device: USB drive
 - Boot selection: Windows 10 ISO
 - Partition scheme: GPT
 - Target system: UEFI (non-CSM)
