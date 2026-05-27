@@ -19,7 +19,7 @@ Common keys:
 
 Secure Boot may need to be disabled depending on system requirements.
 
-- Secure Boot: Disabled
+- Secure Boot: Enabled
 
 ---
 
