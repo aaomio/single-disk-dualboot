@@ -23,7 +23,7 @@ All steps must be followed in sequence.
 A Virtual Hard Disk (VHDX) is created as the first step in the process.
 
 Reference:
-- [Create VHDX](vhd-setup/create-vhd.md)
+- [Create VHDX](vhd-setup\create-vhd.md)
 
 Includes:
 - DiskPart VHD creation
@@ -37,7 +37,7 @@ Includes:
 A bootable Windows installation USB is created.
 
 Reference:
-- [Windows USB (Rufus)](installation/windows-usb-rufus.md)
+- [Windows USB (Rufus)](installation\windows-usb-rufus.md)
 
 Includes:
 - Windows ISO download
@@ -51,7 +51,7 @@ Includes:
 System firmware is configured in order to boot from the installation USB.
 
 Reference:
-- [BIOS / UEFI Boot Setup](installation/boot-from-usb.md)
+- [BIOS / UEFI Boot Setup](installation\boot-from-usb.md)
 
 Includes:
 - Secure Boot configuration (if required)
@@ -65,7 +65,7 @@ Includes:
 The system is booted from the USB installation media into Windows Setup.
 
 Reference:
-- [Windows USB Boot Process](installation/windows-usb-boot-process.md)
+- [Windows USB Boot Process](installation\windows-usb-boot-process.md)
 
 Includes:
 - Boot from USB
@@ -79,7 +79,7 @@ Includes:
 After entering WinPE, the previously created VHD is attached.
 
 Reference:
-- [VHD WinPE Attach](installation/vhd-winpe-attach.md)
+- [VHD WinPE Attach](installation\vhd-winpe-attach.md)
 
 Includes:
 - Locating the VHD file
@@ -93,7 +93,7 @@ Includes:
 Boot entries are configured to enable selection between operating systems.
 
 Reference:
-- [BCDEdit Boot Configuration](bcdedit/boot-configuration.md)
+- [BCDEdit Boot Configuration](bcdedit\boot-configuration.md)
 
 Includes:
 - Boot entry creation
